@@ -14,7 +14,7 @@ function HighScoreState:update(dt)
         })
     end
 end
-
+-- HI
 function HighScoreState:render()
     love.graphics.setFont(gFontsTable['large'])
     love.graphics.printf('High Scores', 0, 20, VIRTUAL_WIDTH, 'center')
